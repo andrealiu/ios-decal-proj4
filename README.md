@@ -28,14 +28,13 @@ customizable and easy-to-use experience for aspiring digital artists.
 * From the logo, users can choose between creating a new drawing or
 resuming work on an old drawing
 * If users choose to start a new drawing, they are taken to a screen
-that allows them to customize canvas size before being taken to their
-blank canvas
+with a blank canvas
 * If users choose to work on an old drawing, they are taken to a view
 that presents previous drawings in a collection-type format, and they
 can select which one to load
 * At this point, the user will be at a canvas view that is either 
 blank or an old loaded picture
-* This canvas view will have a side bar, where the user can select to
+* This canvas view will have a bottom bar, where the user can select to
 use a brush, color picker, eraser, or paint bucket tool
 * If the user selects the brush, they will be taken to a modally 
 presented view that allows them to adjust size/opacity/brush type
@@ -54,6 +53,7 @@ a paint bucket and fill in the closed area that the user clicks on
 * After the user has finished their drawing, they can either:
   * Click a 'Clear' button at the top of the screen to blank their canvas
   * Click a 'Save' button that saves the drawing to the phone's photo gallery
+  	* If the user has not drawn anything, nothing is saved and user is alerted
   * Click a 'Share' button that takes the user to a modally presented view
   that allows him/her to forward the image to a friend
 
@@ -65,7 +65,6 @@ a paint bucket and fill in the closed area that the user clicks on
 * ColorPicker.Swift
 
 ### View
-* SplashScreenView
 * NewOrOldDrawingSelectionView
 * PreviouslySavedDrawingsCollectionView
 * CanvasView
@@ -75,7 +74,6 @@ a paint bucket and fill in the closed area that the user clicks on
 * ShareDrawingView
 
 ### Controller
-* SplashScreenViewController
 * NewOrOldDrawingSelectionViewController
 * PreviouslySavedDrawingsCollectionViewController
 * CanvasViewController
@@ -83,3 +81,9 @@ a paint bucket and fill in the closed area that the user clicks on
 * ColorPickerAdjustmentViewController
 * EraserAdjustmentViewController
 * ShareDrawingViewController
+
+
+eraser tool by icon 54 from the Noun Project
+dropper tool by Scott Lewis from the Noun Project
+brush tool by icons.design from the Noun Project
+settings icon by Viktor Vorobyev from the Noun Project

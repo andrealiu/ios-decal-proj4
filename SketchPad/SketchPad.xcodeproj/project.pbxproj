@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		940E3CEA1CD02697006BADD7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940E3CE91CD02697006BADD7 /* AppDelegate.swift */; };
+		940E3CEC1CD02697006BADD7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940E3CEB1CD02697006BADD7 /* ViewController.swift */; };
+		940E3CEF1CD02697006BADD7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 940E3CED1CD02697006BADD7 /* Main.storyboard */; };
+		940E3CF11CD02697006BADD7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 940E3CF01CD02697006BADD7 /* Assets.xcassets */; };
+		940E3CF41CD02697006BADD7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 940E3CF21CD02697006BADD7 /* LaunchScreen.storyboard */; };
+		940E3CFF1CD02697006BADD7 /* SketchPadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940E3CFE1CD02697006BADD7 /* SketchPadTests.swift */; };
+		940E3D0A1CD02697006BADD7 /* SketchPadUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940E3D091CD02697006BADD7 /* SketchPadUITests.swift */; };
+		9420ACC71CD2D62D00E0938B /* BrushAdjustmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9420ACC61CD2D62D00E0938B /* BrushAdjustmentViewController.swift */; };
+		9420ACC91CD3EC9300E0938B /* EraserAdjustmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9420ACC81CD3EC9300E0938B /* EraserAdjustmentViewController.swift */; };
+		94F8E1CC1CD177BF00A283B9 /* noun_138811_cc.png in Resources */ = {isa = PBXBuildFile; fileRef = 94F8E1CB1CD177BF00A283B9 /* noun_138811_cc.png */; };
+		94F8E1CE1CD18A4D00A283B9 /* NewOrOldDrawingSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F8E1CD1CD18A4D00A283B9 /* NewOrOldDrawingSelectionViewController.swift */; };
+		94F8E1D01CD18EB800A283B9 /* CanvasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F8E1CF1CD18EB800A283B9 /* CanvasViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		940E3CFB1CD02697006BADD7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 940E3CDE1CD02697006BADD7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 940E3CE51CD02697006BADD7;
+			remoteInfo = SketchPad;
+		};
+		940E3D061CD02697006BADD7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 940E3CDE1CD02697006BADD7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 940E3CE51CD02697006BADD7;
+			remoteInfo = SketchPad;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		940E3CE61CD02697006BADD7 /* SketchPad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SketchPad.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		940E3CE91CD02697006BADD7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		940E3CEB1CD02697006BADD7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		940E3CEE1CD02697006BADD7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		940E3CF01CD02697006BADD7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		940E3CF31CD02697006BADD7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		940E3CF51CD02697006BADD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		940E3CFA1CD02697006BADD7 /* SketchPadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SketchPadTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		940E3CFE1CD02697006BADD7 /* SketchPadTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SketchPadTests.swift; sourceTree = "<group>"; };
+		940E3D001CD02697006BADD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		940E3D051CD02697006BADD7 /* SketchPadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SketchPadUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		940E3D091CD02697006BADD7 /* SketchPadUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SketchPadUITests.swift; sourceTree = "<group>"; };
+		940E3D0B1CD02697006BADD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9420ACC61CD2D62D00E0938B /* BrushAdjustmentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BrushAdjustmentViewController.swift; path = ../BrushAdjustmentViewController.swift; sourceTree = "<group>"; };
+		9420ACC81CD3EC9300E0938B /* EraserAdjustmentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EraserAdjustmentViewController.swift; path = ../EraserAdjustmentViewController.swift; sourceTree = "<group>"; };
+		94F8E1CB1CD177BF00A283B9 /* noun_138811_cc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = noun_138811_cc.png; sourceTree = "<group>"; };
+		94F8E1CD1CD18A4D00A283B9 /* NewOrOldDrawingSelectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NewOrOldDrawingSelectionViewController.swift; path = ../NewOrOldDrawingSelectionViewController.swift; sourceTree = "<group>"; };
+		94F8E1CF1CD18EB800A283B9 /* CanvasViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CanvasViewController.swift; path = ../CanvasViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		940E3CE31CD02697006BADD7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		940E3CF71CD02697006BADD7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		940E3D021CD02697006BADD7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		940E3CDD1CD02697006BADD7 = {
+			isa = PBXGroup;
+			children = (
+				94F8E1CB1CD177BF00A283B9 /* noun_138811_cc.png */,
+				940E3CE81CD02697006BADD7 /* SketchPad */,
+				940E3CFD1CD02697006BADD7 /* SketchPadTests */,
+				940E3D081CD02697006BADD7 /* SketchPadUITests */,
+				940E3CE71CD02697006BADD7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		940E3CE71CD02697006BADD7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				940E3CE61CD02697006BADD7 /* SketchPad.app */,
+				940E3CFA1CD02697006BADD7 /* SketchPadTests.xctest */,
+				940E3D051CD02697006BADD7 /* SketchPadUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		940E3CE81CD02697006BADD7 /* SketchPad */ = {
+			isa = PBXGroup;
+			children = (
+				9420ACC81CD3EC9300E0938B /* EraserAdjustmentViewController.swift */,
+				9420ACC61CD2D62D00E0938B /* BrushAdjustmentViewController.swift */,
+				94F8E1CF1CD18EB800A283B9 /* CanvasViewController.swift */,
+				94F8E1CD1CD18A4D00A283B9 /* NewOrOldDrawingSelectionViewController.swift */,
+				940E3CE91CD02697006BADD7 /* AppDelegate.swift */,
+				940E3CEB1CD02697006BADD7 /* ViewController.swift */,
+				940E3CED1CD02697006BADD7 /* Main.storyboard */,
+				940E3CF01CD02697006BADD7 /* Assets.xcassets */,
+				940E3CF21CD02697006BADD7 /* LaunchScreen.storyboard */,
+				940E3CF51CD02697006BADD7 /* Info.plist */,
+			);
+			path = SketchPad;
+			sourceTree = "<group>";
+		};
+		940E3CFD1CD02697006BADD7 /* SketchPadTests */ = {
+			isa = PBXGroup;
+			children = (
+				940E3CFE1CD02697006BADD7 /* SketchPadTests.swift */,
+				940E3D001CD02697006BADD7 /* Info.plist */,
+			);
+			path = SketchPadTests;
+			sourceTree = "<group>";
+		};
+		940E3D081CD02697006BADD7 /* SketchPadUITests */ = {
+			isa = PBXGroup;
+			children = (
+				940E3D091CD02697006BADD7 /* SketchPadUITests.swift */,
+				940E3D0B1CD02697006BADD7 /* Info.plist */,
+			);
+			path = SketchPadUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		940E3CE51CD02697006BADD7 /* SketchPad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 940E3D0E1CD02697006BADD7 /* Build configuration list for PBXNativeTarget "SketchPad" */;
+			buildPhases = (
+				940E3CE21CD02697006BADD7 /* Sources */,
+				940E3CE31CD02697006BADD7 /* Frameworks */,
+				940E3CE41CD02697006BADD7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SketchPad;
+			productName = SketchPad;
+			productReference = 940E3CE61CD02697006BADD7 /* SketchPad.app */;
+			productType = "com.apple.product-type.application";
+		};
+		940E3CF91CD02697006BADD7 /* SketchPadTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 940E3D111CD02697006BADD7 /* Build configuration list for PBXNativeTarget "SketchPadTests" */;
+			buildPhases = (
+				940E3CF61CD02697006BADD7 /* Sources */,
+				940E3CF71CD02697006BADD7 /* Frameworks */,
+				940E3CF81CD02697006BADD7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				940E3CFC1CD02697006BADD7 /* PBXTargetDependency */,
+			);
+			name = SketchPadTests;
+			productName = SketchPadTests;
+			productReference = 940E3CFA1CD02697006BADD7 /* SketchPadTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		940E3D041CD02697006BADD7 /* SketchPadUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 940E3D141CD02697006BADD7 /* Build configuration list for PBXNativeTarget "SketchPadUITests" */;
+			buildPhases = (
+				940E3D011CD02697006BADD7 /* Sources */,
+				940E3D021CD02697006BADD7 /* Frameworks */,
+				940E3D031CD02697006BADD7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				940E3D071CD02697006BADD7 /* PBXTargetDependency */,
+			);
+			name = SketchPadUITests;
+			productName = SketchPadUITests;
+			productReference = 940E3D051CD02697006BADD7 /* SketchPadUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		940E3CDE1CD02697006BADD7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "iOS Decal";
+				TargetAttributes = {
+					940E3CE51CD02697006BADD7 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					940E3CF91CD02697006BADD7 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 940E3CE51CD02697006BADD7;
+					};
+					940E3D041CD02697006BADD7 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 940E3CE51CD02697006BADD7;
+					};
+				};
+			};
+			buildConfigurationList = 940E3CE11CD02697006BADD7 /* Build configuration list for PBXProject "SketchPad" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 940E3CDD1CD02697006BADD7;
+			productRefGroup = 940E3CE71CD02697006BADD7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				940E3CE51CD02697006BADD7 /* SketchPad */,
+				940E3CF91CD02697006BADD7 /* SketchPadTests */,
+				940E3D041CD02697006BADD7 /* SketchPadUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		940E3CE41CD02697006BADD7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				940E3CF41CD02697006BADD7 /* LaunchScreen.storyboard in Resources */,
+				940E3CF11CD02697006BADD7 /* Assets.xcassets in Resources */,
+				940E3CEF1CD02697006BADD7 /* Main.storyboard in Resources */,
+				94F8E1CC1CD177BF00A283B9 /* noun_138811_cc.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		940E3CF81CD02697006BADD7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		940E3D031CD02697006BADD7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		940E3CE21CD02697006BADD7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				940E3CEC1CD02697006BADD7 /* ViewController.swift in Sources */,
+				940E3CEA1CD02697006BADD7 /* AppDelegate.swift in Sources */,
+				9420ACC71CD2D62D00E0938B /* BrushAdjustmentViewController.swift in Sources */,
+				94F8E1CE1CD18A4D00A283B9 /* NewOrOldDrawingSelectionViewController.swift in Sources */,
+				94F8E1D01CD18EB800A283B9 /* CanvasViewController.swift in Sources */,
+				9420ACC91CD3EC9300E0938B /* EraserAdjustmentViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		940E3CF61CD02697006BADD7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				940E3CFF1CD02697006BADD7 /* SketchPadTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		940E3D011CD02697006BADD7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				940E3D0A1CD02697006BADD7 /* SketchPadUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		940E3CFC1CD02697006BADD7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 940E3CE51CD02697006BADD7 /* SketchPad */;
+			targetProxy = 940E3CFB1CD02697006BADD7 /* PBXContainerItemProxy */;
+		};
+		940E3D071CD02697006BADD7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 940E3CE51CD02697006BADD7 /* SketchPad */;
+			targetProxy = 940E3D061CD02697006BADD7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		940E3CED1CD02697006BADD7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				940E3CEE1CD02697006BADD7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		940E3CF21CD02697006BADD7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				940E3CF31CD02697006BADD7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		940E3D0C1CD02697006BADD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		940E3D0D1CD02697006BADD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		940E3D0F1CD02697006BADD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SketchPad/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cs-198.SketchPad";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		940E3D101CD02697006BADD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SketchPad/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cs-198.SketchPad";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		940E3D121CD02697006BADD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SketchPadTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cs-198.SketchPadTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SketchPad.app/SketchPad";
+			};
+			name = Debug;
+		};
+		940E3D131CD02697006BADD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SketchPadTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cs-198.SketchPadTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SketchPad.app/SketchPad";
+			};
+			name = Release;
+		};
+		940E3D151CD02697006BADD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SketchPadUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cs-198.SketchPadUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SketchPad;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		940E3D161CD02697006BADD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SketchPadUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cs-198.SketchPadUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SketchPad;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		940E3CE11CD02697006BADD7 /* Build configuration list for PBXProject "SketchPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				940E3D0C1CD02697006BADD7 /* Debug */,
+				940E3D0D1CD02697006BADD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		940E3D0E1CD02697006BADD7 /* Build configuration list for PBXNativeTarget "SketchPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				940E3D0F1CD02697006BADD7 /* Debug */,
+				940E3D101CD02697006BADD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		940E3D111CD02697006BADD7 /* Build configuration list for PBXNativeTarget "SketchPadTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				940E3D121CD02697006BADD7 /* Debug */,
+				940E3D131CD02697006BADD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		940E3D141CD02697006BADD7 /* Build configuration list for PBXNativeTarget "SketchPadUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				940E3D151CD02697006BADD7 /* Debug */,
+				940E3D161CD02697006BADD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 940E3CDE1CD02697006BADD7 /* Project object */;
+}
